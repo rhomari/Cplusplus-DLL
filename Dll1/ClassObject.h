@@ -5,6 +5,6 @@ public:
 	ClassObject();
 
 	
-	virtual __declspec(dllimport)  void SayHello();
+	virtual __declspec(dllexport)  void SayHello();
 
 };

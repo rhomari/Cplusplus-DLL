@@ -17,7 +17,7 @@ public:
 };
 int main()
 {
-    HMODULE module = LoadLibraryA("Dll1.dll");
+    HMODULE module = LoadLibraryA("Dlltest.dll");
     if (module == NULL) {
         cout << "ERROR loadLibrairy" << endl;
         cout << GetLastError() << endl;
