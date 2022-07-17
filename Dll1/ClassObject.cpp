@@ -13,6 +13,7 @@ extern "C"  __declspec(dllexport) ClassObject *  Constructor()
 
 extern "C" __declspec(dllexport)  void Destructor(ClassObject * classobject)
 {
+	cout << "Class Destroyed" << endl;
 	delete classobject;
 }
 ClassObject::ClassObject() {
